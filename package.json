@@ -1,0 +1,25 @@
+{
+  "name": "ariza-bot",
+  "version": "1.0.0",
+  "description": "Telegram ariza (murojaat) boti — grammY + TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "grammy": "^1.30.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.19.0",
+    "typescript": "^6.0.0"
+  }
+}
